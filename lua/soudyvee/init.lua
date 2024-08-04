@@ -1,2 +1,2 @@
 require("soudyvee.remap")
-print("Welcome $oudyvee")
+require("soudyvee.set")
