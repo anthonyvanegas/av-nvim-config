@@ -40,4 +40,5 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
+    use('CRAG666/code_runner.nvim')
 end)
