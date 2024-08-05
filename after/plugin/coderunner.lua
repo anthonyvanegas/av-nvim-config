@@ -1,6 +1,6 @@
 require('code_runner').setup({
     filetype = {
-        python = "python3 -u",
+        python = "python3 -u -m pudb",
     },
 })
 vim.keymap.set('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = false })
